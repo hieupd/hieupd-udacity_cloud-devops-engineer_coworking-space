@@ -60,11 +60,11 @@ spec:
             configMapKeyRef:
               name: postgresql-config-map
               key: DB_PORT
-        - name: DB_USER
+        - name: DB_USERNAME
           valueFrom:
             configMapKeyRef:
               name: postgresql-config-map
-              key: DB_USER
+              key: DB_USERNAME
         - name: DB_NAME
           valueFrom:
             configMapKeyRef:

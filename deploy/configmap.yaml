@@ -4,6 +4,6 @@ metadata:
   name: postgresql-config-map
 data:
   DB_NAME: "hieupd_coworking_db"
-  DB_USER: "hieupd"
+  DB_USERNAME: "hieupd"
   DB_HOST: "postgresql-service"
   DB_PORT: "5432"
