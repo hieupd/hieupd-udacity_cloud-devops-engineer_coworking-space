@@ -31,7 +31,7 @@ spec:
       containers:
       - name: coworking
         image: 918780285974.dkr.ecr.us-east-1.amazonaws.com/hieupd_analytics:latest
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         livenessProbe:
           httpGet:
             path: /health_check
