@@ -4,11 +4,11 @@ USER root
 
 WORKDIR /src
 
-ENV DB_USERNAME=wd_user
-ENV DB_PASSWORD=12345678
+ENV DB_USERNAME=hieupd
+ENV DB_PASSWORD=hieupd123456
 ENV DB_HOST=127.0.0.1
-ENV DB_PORT=5433
-ENV DB_NAME=wd_coworking_db
+ENV DB_PORT=5432
+ENV DB_NAME=hieupd_coworking_db
 
 COPY ./analytics .
 
